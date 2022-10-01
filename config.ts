@@ -1,4 +1,4 @@
-export const encryption_key = "lala"
+export const encryption_key = "ashe_secret_encryption_key"
 export const api_secret = "ashe_secret_api_key"
 
 // At the moment, MySQL is the only one being supported
@@ -7,10 +7,10 @@ export const database_type = "mysql2"
 // Notice that database configuration may change if you change database type
 // Check knex.js docs to see how to configure properly
 export const databaseOptions = {
-    host: 'db.kunah.fr',
-    user: 'kunah',
-    password: 'Kunah-696',
-    database: 'kunah.fr',
+    host: 'host_url',
+    user: 'db_username',
+    password: 'db_password',
+    database: 'db_name',
     port: 3306
 };
 
