@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "An admin panel maker",
   "main": "ashe.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "admin",
     "admin panel",
